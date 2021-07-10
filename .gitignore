@@ -1,0 +1,16 @@
+*
+!.gitignore
+
+!options.txt
+
+!mods/
+!mods/*
+
+!resourcepacks/
+!resourcepacks/*
+
+!config/
+!config/*
+config/litematica/*
+config/minihud/*
+config/voicechat-volumes.properties
