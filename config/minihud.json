@@ -71,6 +71,7 @@
     "textColor": "#FFE0E0E0"
   },
   "Generic": {
+    "axolotlTooltipsTooltips": false,
     "beeTooltips": false,
     "honeyTooltips": false,
     "enabled": true,
@@ -727,6 +728,7 @@
     }
   },
   "RendererToggles": {
+    "debugChunkBorder": false,
     "debugChunkInfo": false,
     "debugChunkOcclusion": false,
     "debugCollisionBoxEnabled": false,
@@ -747,6 +749,18 @@
     "shapeRenderer": true
   },
   "RendererHotkeys": {
+    "debugChunkBorder": {
+      "keys": "",
+      "settings": {
+        "activate_on": "PRESS",
+        "context": "INGAME",
+        "allow_empty": false,
+        "allow_extra_keys": false,
+        "order_sensitive": true,
+        "exclusive": false,
+        "cancel": true
+      }
+    },
     "debugChunkInfo": {
       "keys": "",
       "settings": {
@@ -916,7 +930,7 @@
       }
     },
     "overlaySpawnChunkReal": {
-      "keys": "",
+      "keys": "H,S",
       "settings": {
         "activate_on": "PRESS",
         "context": "INGAME",
